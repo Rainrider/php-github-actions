@@ -22,3 +22,10 @@ jobs:
       - name: Check Environment
         run: |
           php --ri mongodb
+
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Install Dependencies
+        run: |
+          composer install

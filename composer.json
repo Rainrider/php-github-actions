@@ -7,5 +7,7 @@
             "Rainrider\\PhpGithubActions\\": "src/"
         }
     },
-    "require": {}
+    "require": {
+        "mongodb/mongodb": "^2.1"
+    }
 }
