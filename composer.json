@@ -4,10 +4,13 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Rainrider\\PhpGithubActions\\": "src/"
+            "App\\": "src/"
         }
     },
     "require": {
         "mongodb/mongodb": "^2.1"
+    },
+    "require-dev": {
+        "vimeo/psalm": "^6.16"
     }
 }
