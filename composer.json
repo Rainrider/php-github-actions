@@ -1,0 +1,11 @@
+{
+    "name": "rainrider/php-github-actions",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rainrider\\PhpGithubActions\\": "src/"
+        }
+    },
+    "require": {}
+}
